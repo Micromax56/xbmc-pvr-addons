@@ -30,7 +30,7 @@
 #endif
 
 #if defined __mips__
-#include <atomic.h>
+ /* #include <atomic.h> Temporary WA. To be replace by a MipsAtomic.h */
 #endif
 
 #if defined(__APPLE__)
